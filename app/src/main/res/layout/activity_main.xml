@@ -1,61 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
-    android:layout_gravity="center"
-    tools:context="com.vensign.myappportfolio.MainActivity">
+    android:layout_width="match_parent"
+    >
 
-
-
-    <TextView
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="24sp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:layout_marginTop="40dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="@string/my_nanodegree_apps" />
-    <Button
-        android:id="@+id/btn_popular_movies"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MyAppButtons"
-        android:text="@string/popular_movies"/>
-    <Button
-        android:id="@+id/btn_stock_hawk"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MyAppButtons"
-        android:text="@string/stock_hawk"/>
-    <Button
-        android:id="@+id/btn_build_bigger"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MyAppButtons"
-        android:text="@string/build_bigger"/>
-    <Button
-        android:id="@+id/btn_app_material"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MyAppButtons"
-        android:text="@string/make_your_app_material"/>
-    <Button
-        android:id="@+id/btn_go_ubiquitous"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MyAppButtons"
-        android:text="@string/go_ubiquitous"/>
-    <Button
-        android:id="@+id/btn_capstone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MyAppButtons"
-        android:text="@string/capstone"/>
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        tools:context="com.vensign.myappportfolio.MainActivity">
 
-</LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/my_nanodegree_apps" />
+        <Button
+            android:id="@+id/btn_popular_movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyAppButtons"
+            android:text="@string/popular_movies"/>
+        <Button
+            android:id="@+id/btn_stock_hawk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyAppButtons"
+            android:text="@string/stock_hawk"/>
+        <Button
+            android:id="@+id/btn_build_bigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyAppButtons"
+            android:text="@string/build_bigger"/>
+        <Button
+            android:id="@+id/btn_app_material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyAppButtons"
+            android:text="@string/make_your_app_material"/>
+        <Button
+            android:id="@+id/btn_go_ubiquitous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyAppButtons"
+            android:text="@string/go_ubiquitous"/>
+        <Button
+            android:id="@+id/btn_capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyAppButtons"
+            android:text="@string/capstone"/>
+
+    </LinearLayout>
+</ScrollView>
